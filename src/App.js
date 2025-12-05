@@ -1,8 +1,10 @@
+import UserDetailsModal from "./UserDetailsModal";
 
 function App() {
   return (
     <div className="App">
-      <h1>Welcome to the My-App</h1>
+      <UserDetailsModal />
+      {/* <h1>Welcome to the My-App</h1> */}
     </div>
   );
 }
